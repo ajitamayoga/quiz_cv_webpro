@@ -1,0 +1,331 @@
+html, body, div, span, h1, h4, a, img, b, u, i,ul, li, footer, header, nav, section{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    }
+
+#navbar {
+	font-weight: bold;
+    font-family: leelawadee;
+    width: 100%;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+}
+
+body {
+	background-color: #1a3a2c;
+}
+
+ul#nav li {
+        position: relative;
+        list-style: none;
+        height: 48px;
+        display: inline-block;
+}
+
+ul#nav li a {
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 8px 10px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #cdffcc;
+} 
+
+ul#nav li a:hover {
+    border: 2px solid #cdffcc;
+} 
+
+header {
+	position: relative;
+    height: 650px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../img/headerbg.jpeg) no-repeat bottom center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+header .judul {
+    padding-top: 17%;
+    padding-bottom: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+    }
+header .judul-text h1 {
+    font: 90px 'helvetica';
+    color: #cdffcc;
+    margin: 0 auto 20px auto;
+    text-shadow: 2px 0px 5px rgba(0, 0, 0, .8);
+}
+header .judul-text h3 {
+    font: 18px/1.9em 'leelawadee';
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    width: 70%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+header .judul-text h3 {
+    color: #cdffcc;
+    font-size: 20px;
+}
+  
+header .judul-text hr {
+    width: 75%;
+    margin: 30px auto 30px auto;
+    background-color: #cdffcc;
+    border-color: transparent;
+}
+
+.fotoprofile {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.prow {
+	display: grid;
+	grid-template-columns: 20% 10% 70%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.pcolumn {
+  flex: 100%;
+  padding: 10px;
+  height: 300px; 
+
+}
+
+.pcolumn h1 {
+	font-weight: bold;
+    font-family: leelawadee;
+    font-size: 40px;
+    color: #cdffcc;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.pcolumn p {
+	font-weight: thin;
+    font-family: leelawadee;
+    font-size: 21px;
+    color: #cdffcc;
+    width: 100%;
+}
+
+.erow {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+/*.erow div:nth-child(even) {
+	background: #777;
+}*/
+
+.ecolumn {
+  flex: 100%;
+  padding: 10px;
+  height: 100%
+}
+
+.fotoprofile {
+	width: 100%;
+	border-radius: 100%;
+	border: 6px solid #cdffcc;
+	border-color: #cdffcc;
+  	margin-right: 20px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.photography {width: 90%; background-color: #4CAF50;} /* Green */
+.design {width: 60%; background-color: #2196F3;} /* Blue */
+.editing {width: 70%; background-color: #f44336;} /* Red */
+.programming {width: 50%; background-color: #808080;} /* Dark Grey */
+
+.skrow {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #1a3a2c;
+}
+
+.skcolumn {
+  flex: 100%;
+  padding: 10px;
+  height: 100%
+}
+
+.resume{
+	font-weight: bold;
+    font-family: sitka display;
+    font-size: 40px;
+    color: #cdffcc;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.erow {
+	font-weight: bold;
+    font-family: sitka display;
+    color: #cdffcc;
+    margin-bottom: 10%;
+}
+
+.erow h3 {
+	font-size: 25px;
+}
+
+.erow h4 {
+	font-size: 20px;
+}
+
+.skrow {
+	font-weight: bold;
+    font-family: sitka display;
+    color: #cdffcc;
+    margin-bottom: 10%;
+}
+
+.skrow h3 {
+	font-size: 25px;
+}
+
+.skcolumn p {
+	font-size: 20px;
+}
+
+#resume h1 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#profile {
+	background-color: #1a3a2c;
+}
+
+#portofolio h1{
+	text-align: center;
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+#portofolio h2{
+	text-align: center;
+	font-weight: bold;
+    font-family: leelawadee;
+    font-size: 25px;
+    color: #cdffcc;
+}
+
+
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 1px;
+  font-size: 20px;
+  font-family: leelawadee;
+  font-weight: bold;
+}
+
+.pfrow {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.pfrow2 {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.crow {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.sosmed ul {
+	padding-top: 30px;
+	list-style: none;
+	font-size: 20px;
+	font-family: leelawadee;
+	font-weight: bold;
+}
+
+#contact {
+	background-color: #cdffcc;
+}
+
+#contact h1 {
+	text-align: center;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+    font-family: sitka display;
+    font-size: 40px;
+}
+
+.address h2 {
+	font-weight: bold;
+    font-family: sitka display;
+    font-size: 30px;
+}
+
+.address p {
+	font-weight: bold;
+    font-family: sitka display;
+    font-size: 15px;
+}
